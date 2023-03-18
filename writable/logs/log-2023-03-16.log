@@ -1,0 +1,27 @@
+CRITICAL - 2023-03-16 00:12:40 --> Unclosed '{' on line 21
+in APPPATH\Views\configuracion\configuracion.php on line 45.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(38): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 00:12:44 --> Unclosed '{' on line 21
+in APPPATH\Views\configuracion\configuracion.php on line 45.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(38): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-16 00:45:42 --> syntax error, unexpected identifier "tienda_correo", expecting ")"
+in APPPATH\Views\configuracion\configuracion.php on line 60.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('configuracion/configuracion', [], true)
+ 3 APPPATH\Controllers\Configuracion.php(38): view('configuracion/configuracion', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Configuracion->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
